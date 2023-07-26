@@ -24,7 +24,7 @@ To use the examples in this repository, navigate to the specific directory of th
 For instance:
 
 ```
-cd springboot- <contained path listed>
+cd springboot-<contained path listed>
 ```
 
 Then follow the instructions in the README.md file inside the directory.
