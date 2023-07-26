@@ -1,0 +1,47 @@
+.portfolio-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .portfolio-table th, .portfolio-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .portfolio-form {
+    margin-top: 20px;
+  }
+  
+  .portfolio-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .portfolio-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .portfolio-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
