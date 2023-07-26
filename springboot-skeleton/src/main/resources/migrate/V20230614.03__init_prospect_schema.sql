@@ -1,0 +1,27 @@
+-- -- create role
+-- CREATE ROLE "lifeforce-prospect-ms" WITH LOGIN PASSWORD '1be86f5c-3216-4f76-9e97-9b0876c3614f';
+-- GRANT "lifeforce-prospect-ms" to "postgres";
+--
+-- -- create schema
+-- CREATE SCHEMA IF NOT EXISTS prospect_schema;
+--
+-- -- init schema
+-- CREATE TABLE prospect_schema.prospect_documents (
+-- 	id varchar(255) NOT NULL,
+-- 	"action" varchar(255) NULL,
+-- 	created_at timestamp NULL,
+-- 	created_by varchar(255) NULL,
+-- 	document_key varchar(255) NULL,
+-- 	updated_at timestamp NULL,
+-- 	updated_by timestamp NULL,
+-- 	prospect_id varchar(255) NULL,
+-- 	CONSTRAINT prospect_documents_pkey PRIMARY KEY (id)
+-- );
+-- ALTER TABLE prospect_schema.prospect_documents OWNER TO "lifeforce-prospect-ms";
+--
+-- CREATE TABLE prospect_schema.prospects_prospect_pics (
+-- 	prospect_id varchar(255) NOT NULL,
+-- 	pics_id varchar(255) NOT NULL,
+-- 	CONSTRAINT uk_dpjiqoyq84a8a44h6xs7ab5dk UNIQUE (prospect_id)
+-- );
+-- ALTER TABLE prospect_schema.prospects_prospect_pics OWNER TO "lifeforce-prospect-ms";

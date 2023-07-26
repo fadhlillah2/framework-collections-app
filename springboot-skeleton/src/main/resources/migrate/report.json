@@ -1,0 +1,36 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "20230614.03",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Create users table",
+          "type": "SQL",
+          "filepath": "/Users/newuser/Documents/java-folder-project /clone-repo/notes-repo/kbni-skeleton/src/main/resources/migrate/./V1__Create_users_table.sql",
+          "executionTime": 66
+        },
+        {
+          "category": "Versioned",
+          "version": "20230614.03",
+          "description": "init prospect schema",
+          "type": "SQL",
+          "filepath": "/Users/newuser/Documents/java-folder-project /clone-repo/notes-repo/kbni-skeleton/src/main/resources/migrate/./V20230614.03__init_prospect_schema.sql",
+          "executionTime": 18
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.19.4",
+      "database": "skeleton_db",
+      "warnings": [],
+      "timestamp": "2023-06-15T02:00:52.711002",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">Email Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        body {font-family: Arial, sans-serif; font-size: 14px; color: #333333;}
+        .email-container {padding: 20px; background-color: #f9f9f9;}
+        .header {font-size: 24px; color: #333; margin-bottom: 20px;}
+        .content {margin-bottom: 20px;}
+        .footer {color: #999999; font-size: 12px;}
+        .button {background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
+    </style>
+</head>
+<body>
+<div class="email-container" th:fragment="emailTemplate">
+    <div class="header" th:fragment="header">
+        <h2 th:text="${header}">Header</h2>
+    </div>
+    <div class="content" th:fragment="body">
+        <p th:text="${body}">Body</p>
+        <!-- You can include tables, links, lists, etc. -->
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Item 1</td>
+                <td>Value 1</td>
+            </tr>
+        </table>
+        <!-- Example of a button -->
+        <a href="#" class="button">Go to Website</a>
+    </div>
+    <!-- Example of an image -->
+    <img src="http://example.com/logo.png" alt="Company Logo" width="150">
+    <div class="footer" th:fragment="footer">
+        <p>Best regards,</p>
+        <p>Your Company Name</p>
+        <p><a href="mailto:info@example.com">info@example.com</a></p>
+        <!-- Social media links -->
+        <p>
+            <a href="http://facebook.com/yourcompany">Facebook</a> |
+            <a href="http://twitter.com/yourcompany">Twitter</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

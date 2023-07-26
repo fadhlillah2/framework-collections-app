@@ -1,0 +1,1 @@
+flyway -configFiles="config.conf"
