@@ -14,7 +14,7 @@ The repository is structured as follows:
 - **Spring Boot**
 - **Quarkus**
 - **Next.js**
-- **gin**
+- **Gin**
 - _Other Frameworks_ - More examples will be continually added here, feel free to propose or contribute with a PR.
 
 Each framework directory contains a fully functional example of a CRUD application, complete with detailed code comments and comprehensive readme files that guide you on how to use and customize the application.
