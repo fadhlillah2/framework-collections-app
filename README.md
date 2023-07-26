@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the `Framework-Collections-App` repository. This repository is a curated collection of various web development frameworks, designed to serve as a comprehensive resource for developers. It houses real-world examples of CRUD (Create, Read, Update, Delete) operations implemented in various frameworks, such as Spring Boot, Quarkus, Next.js, and more. 
+Welcome to the `Framework-Collections-App` repository. This repository is a curated collection of various web development frameworks, designed to serve as a comprehensive resource for developers. It houses real-world examples of CRUD (Create, Read, Update, Delete) operations, authentication, and etc that are implemented in various frameworks, such as Spring Boot, Quarkus, Next.js, and more. 
 
 The main goal of this repository is to provide a one-stop learning center for developers, aiding in understanding and implementing CRUD operations in diverse frameworks.
 
