@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/amazon-cart/amazon-cart.iml" filepath="$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/amazon-cart/amazon-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/amazon-jwt/amazon-jwt.iml" filepath="$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/amazon-jwt/amazon-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/customer-service/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework-collections-app.iml" filepath="$PROJECT_DIR$/framework-collections-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/order-service/order-service.iml" filepath="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/product-service/product-service.iml" filepath="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/quarkus-jwt-auth.iml" filepath="$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/quarkus-jwt-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/quarkus-portfolio-service-be/quarkus-portfolio-service-be.iml" filepath="$PROJECT_DIR$/quarkus-portfolio-service-be/quarkus-portfolio-service-be.iml" />
     </modules>
   </component>

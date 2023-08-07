@@ -61,3 +61,5 @@ Easily start your RESTful Web Services
 
 
 - https://github.com/gscaramuzzino/quarkus-jwt-auth
+
+-http://localhost:8081/q/swagger-ui/#/

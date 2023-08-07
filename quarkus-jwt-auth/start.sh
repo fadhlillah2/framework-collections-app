@@ -2,6 +2,6 @@
 cd amazon-cart
 mvn clean compile package
 cd ../amazon-jwt
-mnv clean compile package
+mvn clean compile package
 cd ../
 docker compose up

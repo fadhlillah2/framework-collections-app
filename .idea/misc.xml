@@ -4,6 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/quarkus-portfolio-service-be/pom.xml" />
+        <option value="$PROJECT_DIR$/quarkus-sales-app-fullstack/be/quarkus-jwt-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/temp/quarkus-ecommerce-microservices/product-service/pom.xml" />
       </list>
     </option>
   </component>
